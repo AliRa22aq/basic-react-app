@@ -36,7 +36,7 @@ jobs:
       run: yarn build
       
     - name: Install Surge
-      run: nps install --global surge
+      run: npm install --global surge
     
     - name: Deploy to Surge
       run: surge ./build project2-ali.surge.su ${{ secrets.SURGE_TOKEN }}
