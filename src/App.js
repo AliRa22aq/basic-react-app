@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Hello from './Hello.js'
 import Hello2 from './Hello2.js'
